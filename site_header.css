@@ -1,0 +1,115 @@
+#header {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px 0px 0px 8px;
+
+    position: absolute;
+    width: auto;
+    height: 246px;
+    left: -10px;
+    top: -10px;
+
+    /* Header */
+
+    background: linear-gradient(180deg, #9AE167 15.62%, rgba(188, 219, 206, 0) 68.23%, rgba(188, 219, 206, 0) 99.48%), #97E05E;
+    opacity: 0.9;
+}
+#logo {
+    position: static;
+    width: 317px;
+    height: 224px;
+    left: 8px;
+    top: 11px;
+}
+
+#logo_text {
+    position: absolute;
+    width: 311px;
+    height: 75px;
+    left: 0px;
+    top: 139px;
+    
+    font-family: 'Paprika';
+    text-align: left;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 51px;
+    text-transform: capitalize;
+    
+    color: #7D7CB5;
+}
+
+#logo_image{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+}
+
+#navigation_bar{
+position: static;
+width: 870px;
+height: 77px;
+left: 10px;
+top: 10px; 
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 10px 0px 0px 10px;
+
+flex: none;
+order: 1;
+align-self: flex-end;
+flex-grow: 0;
+margin: 50px 0px;
+}
+
+
+.navigation_buttons{
+    position: relative;
+    width: 213px;
+    height: 59px;
+    left: 40px;
+    top: 18px; 
+
+/* Button Style */
+
+background: linear-gradient(
+    180deg, #FFE600 0%, rgba(210, 192, 30, 0) 100%),
+     linear-gradient(0deg, #F8E311, #F8E311),
+      linear-gradient(0deg, #F2E327, #F2E327),
+       linear-gradient(0deg, #FFED01, #FFED01),
+        linear-gradient(0deg, #FEEC03, #FEEC03),
+         #F1DE1E;
+
+
+
+    font-family: 'Roboto';
+    font-style: italic;
+    text-align: center;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: capitalize;
+    color: #000000;
+}
+#main_button{
+    left: 50px;
+}
+#minecraft_maps {
+    left:100px;
+    width: 250px;
+}
+#bedrock_maps{
+    left:150px;
+}
+
+
+
+
+
+
