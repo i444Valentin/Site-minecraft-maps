@@ -1,14 +1,16 @@
 #header {
     display: flex;
+    
     flex-direction: row;
-    align-items: flex-start;
-    padding: 16px 0px 0px 8px;
+    overflow: hidden;
+    padding: 0px 0px 0px 0px;
 
-    position: absolute;
-    width: fit-content;
+    position: fixed;
+    width: 100%;
     height: 246px;
-    left: -10px;
-    top: -10px;
+    left: 0px;
+    top: 0px;
+    margin : 0px 0px;
 
     /* Header */
 
@@ -48,7 +50,7 @@
 }
 
 #navigation_bar{
-position: static;
+position: relative;
 width: 870px;
 height: 77px;
 
@@ -58,21 +60,19 @@ flex-direction: row;
 align-items: flex-start;
 padding: 10px 0px 0px 10px;
 
-flex: none;
-order: 1;
-align-self: flex-end;
-flex-grow: 0;
-margin: 50px 0px;
+
 }
 
 
 .navigation_buttons{
     position: relative;
-    width: 213px;
+    width: 300px;
     height: 59px;
-    left: 40px;
-    top: 18px; 
-
+    flex: none;
+    order: 1;
+    align-self: flex-end;
+    flex-grow: 0;
+    margin: -100px 100px;
 /* Button Style */
 
 background: linear-gradient(
@@ -94,30 +94,20 @@ background: linear-gradient(
     text-transform: capitalize;
     color: #000000;
 }
-#main_button{
-    left: 50px;
-}
-#minecraft_maps {
-    left:100px;
-    width: 250px;
-}
-#bedrock_maps{
-    left:150px;
-}
-
 
 #FAQ_Sign_UP_In{
 
 display: flex;
 flex-direction: column;
 align-items: flex-start;
-padding: 0px 0px 0px 9px;
+padding: 0px 0px 0px 0px;
 
-position: static;
+position: relative;
 width: 88px;
 height: 240.19px;
-left: 1365px;
-top: 2.91px;
+left: 600px;
+margin: 0px 20px;
+
 
 
 background: linear-gradient(180deg, #9AE167 15.62%, rgba(188, 219, 206, 0) 68.23%, rgba(188, 219, 206, 0) 99.48%), #97E05E;
@@ -126,7 +116,6 @@ flex: none;
 order: 2;
 align-self: center;
 flex-grow: 0;
-margin: 75px 0px;
 }
 
 

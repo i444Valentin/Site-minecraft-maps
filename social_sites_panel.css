@@ -4,10 +4,10 @@
     align-items: flex-start;
     padding: 10px 0px 0px 3px;
 
-    position: absolute;
+    position: fixed;
     width: 86px;
     height: 460px;
-    left: 1354px;
+    left: 1800px;
     top: 410px;
     overflow: hidden;
 

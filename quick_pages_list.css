@@ -4,11 +4,11 @@
     align-items: flex-start;
     padding: 10px 0px 0px;
     
-    position: absolute;
+    position: fixed;
     width: 242px;
     height: 777px;
-    left: -10px;
-    top: 251px;
+    left: 0px;
+    top: 245px;
     
     background: rgba(245, 223, 19, 0.77);
 }
