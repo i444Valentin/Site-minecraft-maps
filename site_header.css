@@ -2,6 +2,8 @@
     display: flex;
     
     flex-direction: row;
+    flex-basis: 100%;
+    justify-content: flex-start;
     overflow: hidden;
     padding: 0px 0px 0px 0px;
 
@@ -50,7 +52,7 @@
 }
 
 #navigation_bar{
-position: relative;
+position: static;
 width: 870px;
 height: 77px;
 
@@ -65,14 +67,14 @@ padding: 10px 0px 0px 10px;
 
 
 .navigation_buttons{
-    position: relative;
+    position: static;
     width: 300px;
     height: 59px;
     flex: none;
     order: 1;
     align-self: flex-end;
     flex-grow: 0;
-    margin: -100px 100px;
+    margin: -100px 50px;
 /* Button Style */
 
 background: linear-gradient(
@@ -99,14 +101,13 @@ background: linear-gradient(
 
 display: flex;
 flex-direction: column;
-align-items: flex-start;
 padding: 0px 0px 0px 0px;
 
-position: relative;
+position: absolute;
 width: 88px;
 height: 240.19px;
-left: 600px;
-margin: 0px 20px;
+margin: 0px 0px;
+right: 0px;
 
 
 
