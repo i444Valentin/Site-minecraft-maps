@@ -1,0 +1,28 @@
+#panel{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 0px 0px 3px;
+
+    position: absolute;
+    width: 86px;
+    height: 460px;
+    left: 1354px;
+    top: 410px;
+    overflow: hidden;
+
+/* Header */
+
+    background: linear-gradient(180deg, #9AE167 15.62%, rgba(188, 219, 206, 0) 68.23%, rgba(188, 219, 206, 0) 99.48%), #97E05E;
+    opacity: 0.9;
+}
+.social_sites_icons{
+    position: static;
+    width: 80px;
+    height: 80px;
+    flex: none;
+    order: 1;
+    align-self: center;
+    flex-grow: 0;
+    margin: 5px 0px;
+}

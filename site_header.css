@@ -5,7 +5,7 @@
     padding: 16px 0px 0px 8px;
 
     position: absolute;
-    width: auto;
+    width: fit-content;
     height: 246px;
     left: -10px;
     top: -10px;
@@ -19,8 +19,6 @@
     position: static;
     width: 317px;
     height: 224px;
-    left: 8px;
-    top: 11px;
 }
 
 #logo_text {
@@ -53,8 +51,7 @@
 position: static;
 width: 870px;
 height: 77px;
-left: 10px;
-top: 10px; 
+
 
 display: flex;
 flex-direction: row;
@@ -109,7 +106,28 @@ background: linear-gradient(
 }
 
 
+#FAQ_Sign_UP_In{
 
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px 0px 0px 9px;
+
+position: static;
+width: 88px;
+height: 240.19px;
+left: 1365px;
+top: 2.91px;
+
+
+background: linear-gradient(180deg, #9AE167 15.62%, rgba(188, 219, 206, 0) 68.23%, rgba(188, 219, 206, 0) 99.48%), #97E05E;
+
+flex: none;
+order: 2;
+align-self: center;
+flex-grow: 0;
+margin: 75px 0px;
+}
 
 
 
