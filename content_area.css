@@ -7,3 +7,73 @@
 
 background: rgba(255, 255, 250, 0.95);
 }
+
+#table_of_disciplines{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 0px 0px 10px;
+    
+    position: absolute;
+    width: 943px;
+    height: 531px;
+    left: 140px;
+    top: 202px;
+    
+    border: 6px solid #000000;
+    box-sizing: border-box;
+}
+
+.tables{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    
+    position: static;
+    width: 301px;
+    height: 511px;
+    left: 632px;
+    top: 10px;
+    
+    border: 4px solid #000000;
+    box-sizing: border-box;
+    
+    /* Inside Auto Layout */
+    
+    flex: none;
+    order: 2;
+    align-self: center;
+    flex-grow: 0;
+    margin: 10px 0px;
+}
+
+.rows_disciplines{
+    
+    position: static;
+    width: 301px;
+    height: 73px;
+    left: 0px;
+    top: 219px;
+
+    border: 4px solid #000000;
+    box-sizing: border-box;
+    flex: none;
+    order: 3;
+    align-self: center;
+    flex-grow: 0;
+    margin: 0px 0px;
+    }
+.discipline_text{
+    position: static;
+    text-justify: newspaper;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 60px;
+
+    color: #000000;
+
+}
